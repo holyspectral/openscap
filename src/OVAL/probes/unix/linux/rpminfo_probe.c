@@ -272,7 +272,7 @@ ret:
 
 int rpminfo_probe_offline_mode_supported()
 {
-	return PROBE_OFFLINE_CHROOT | PROBE_OFFLINE_RPMDB;
+	return PROBE_OFFLINE_OWN;
 }
 
 void *rpminfo_probe_init(void)
